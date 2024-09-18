@@ -1,0 +1,25 @@
+.header-custom {
+  height: 71px;
+  background-color: #E10600;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70vw;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.header-image {
+  width: 130px; 
+  margin-left: 15px;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 15px;
+  width: 370px;
+}
