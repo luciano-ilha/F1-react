@@ -20,7 +20,7 @@
     <img src="./public/f1-logo.png" alt="Screenshot">
   </a>
 
-  <h1 align="center">F1 Api</h1>
+  <h1 align="center">F1 React | Typescript</h1>
 
   <p align="center">
     A F1 API app.
