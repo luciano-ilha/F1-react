@@ -86,8 +86,9 @@ A F1 React | Typescript app.
 <a href="https://reactjs.org/">
  <img src="https://img.shields.io/badge/-React-61dafb?style=for-the-badge&logo=React&logoColor=000000" alt="React icon">
 </a>
+<br>
 <a href="https://www.typescriptlang.org/">
- <img src="https://img.shields.io/badge/-Typescript-61dafb?style=for-the-badge&logo=Typescript&logoColor=000000" alt="Typescript icon">
+ <img src="https://img.shields.io/badge/-Typescript-1471b6?style=for-the-badge&logo=Typescript&logoColor=ffffff" alt="Typescript icon">
 </a>
 <br>
 <a href="https://www.javascript.com/">
