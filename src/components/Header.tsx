@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <header className='header-custom'>
       <nav className='header-content'>
-        <a href="home">
+        <a href="/">
           <img src="../../assets/just_f1_logo.svg" alt="F1 logo" className='header-image' />
         </a>
         <div className='header-menu'>

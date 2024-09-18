@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/drivers" element={<Drivers />} />
         <Route path="/teams" element={<Teams />} />
         <Route path="/circuits" element={<Circuits />} />
