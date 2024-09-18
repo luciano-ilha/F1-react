@@ -1,14 +1,14 @@
-import TeamsMain from '../components/TeamsMain';
+import CircuitsMain from '../components/CircuitsMain';
 import Header from '../components/Header';
 import '../styles/Custom.styles.css';
 
-const Teams = () => {
+const Circuits = () => {
   return (
     <div className="custom-container">
       <Header />
-      <TeamsMain />
+      <CircuitsMain />
     </div>
   );
 };
 
-export default Teams;
+export default Circuits;

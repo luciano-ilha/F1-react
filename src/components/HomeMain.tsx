@@ -3,7 +3,7 @@ import '../styles/HomeMain.styles.css'
 const HomeMain = () => { 
   return (
     <div className='flex justify-center home-main-content'>
-      <span className='home-main-title font-semibold leading-6 text-white'>Formula 1</span>
+      <span className='font-semibold leading-6 text-white home-main-title'>Formula 1</span>
     </div>
   )
 }
