@@ -23,7 +23,7 @@
   <h1 align="center">F1 React | Typescript</h1>
 
   <p align="center">
-    A F1 API app.
+    A F1 React | Typescript app.
     <br />
     <a href="https://github.com/luciano-ilha/f1-react"><strong>Explore the docs »</strong></a>
     <br />
