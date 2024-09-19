@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Home from './pages/Home'
 import Drivers from './pages/Drivers'
-import Teams from './pages/Teams'
 import Circuits from './pages/Circuits'
-import PrivateRoute from './components/PrivateRoute'
+import Home from './pages/Home'
 import Login from './pages/Login'
+import PrivateRoute from './components/PrivateRoute'
+import Teams from './pages/Teams'
 
 function App() {
   return (

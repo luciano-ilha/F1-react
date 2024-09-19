@@ -3,7 +3,7 @@ export interface DriverObj {
   name: string
   age: number
   gridInitials: string
-  gridPosition: number
+  gridPosition: string
   team: string
 }
 
@@ -12,7 +12,7 @@ export class Driver {
   name: string
   age: number
   gridInitials: string
-  gridPosition: number
+  gridPosition: string
   team: string
 
   constructor(properties: DriverObj) { 

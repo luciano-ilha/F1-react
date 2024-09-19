@@ -37,10 +37,6 @@ const Login = () => {
     <>
       <div>
         <div>
-          {/* <div>
-            <img src="../src/imgs/frase-login.png" alt="Birdy colecione suas histórias" />
-          </div> */}
-
           <h2>Login</h2>
           <form onSubmit={handleSubmit}>
             <input

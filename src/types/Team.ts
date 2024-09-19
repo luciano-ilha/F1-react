@@ -4,10 +4,10 @@ export interface TeamObj {
   drivers: {
     firstDriver: string
     secondDriver: string
-    testDriver: string
+    testDriver?: string
   }
   constructorInitials: string
-  constructorPosition: number
+  constructorPosition: string
 }
 
 export class Team { 
@@ -16,10 +16,10 @@ export class Team {
   drivers: {
     firstDriver: string
     secondDriver: string
-    testDriver: string
+    testDriver?: string
   }
   constructorInitials: string
-  constructorPosition: number
+  constructorPosition: string
 
   constructor(properties: TeamObj) { 
     this.id = properties.id || String(Date.now)
