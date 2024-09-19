@@ -1,6 +1,6 @@
-import Header from "../components/Header";
-import HomeMain from "../components/HomeMain";
-import '../styles/Custom.styles.css';
+import Header from "../components/Header"
+import HomeMain from "../components/HomeMain"
+import '../styles/Custom.styles.css'
 
 const Home = () => {
   return (
@@ -8,7 +8,7 @@ const Home = () => {
       <Header />
       <HomeMain />
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

@@ -1,6 +1,6 @@
-import CircuitsMain from '../components/CircuitsMain';
-import Header from '../components/Header';
-import '../styles/Custom.styles.css';
+import CircuitsMain from '../components/CircuitsMain'
+import Header from '../components/Header'
+import '../styles/Custom.styles.css'
 
 const Circuits = () => {
   return (
@@ -11,4 +11,4 @@ const Circuits = () => {
   );
 };
 
-export default Circuits;
+export default Circuits

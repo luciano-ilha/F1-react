@@ -8,4 +8,4 @@ const HomeMain = () => {
   )
 }
 
-export default HomeMain;
+export default HomeMain

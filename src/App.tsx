@@ -1,8 +1,8 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Drivers from './pages/Drivers';
-import Teams from './pages/Teams';
-import Circuits from './pages/Circuits';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Home from './pages/Home'
+import Drivers from './pages/Drivers'
+import Teams from './pages/Teams'
+import Circuits from './pages/Circuits'
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         <Route path="/circuits" element={<Circuits />} />
       </Routes>
     </Router>
-  );
+  )
 }
 
-export default App;
+export default App

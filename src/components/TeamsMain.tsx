@@ -8,4 +8,4 @@ const TeamsMain = () => {
   )
 }
 
-export default TeamsMain;
+export default TeamsMain

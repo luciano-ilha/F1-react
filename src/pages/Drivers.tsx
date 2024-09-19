@@ -1,6 +1,6 @@
-import DriversMain from '../components/DriversMain';
-import Header from '../components/Header';
-import '../styles/Custom.styles.css';
+import DriversMain from '../components/DriversMain'
+import Header from '../components/Header'
+import '../styles/Custom.styles.css'
 
 const Drivers = () => {
   return (
@@ -8,7 +8,7 @@ const Drivers = () => {
       <Header />
       <DriversMain />
     </div>
-  );
-};
+  )
+}
 
-export default Drivers;
+export default Drivers

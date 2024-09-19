@@ -8,4 +8,4 @@ const CircuitsMain = () => {
   )
 }
 
-export default CircuitsMain;
+export default CircuitsMain

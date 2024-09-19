@@ -1,6 +1,6 @@
-import TeamsMain from '../components/TeamsMain';
-import Header from '../components/Header';
-import '../styles/Custom.styles.css';
+import TeamsMain from '../components/TeamsMain'
+import Header from '../components/Header'
+import '../styles/Custom.styles.css'
 
 const Teams = () => {
   return (
@@ -8,7 +8,7 @@ const Teams = () => {
       <Header />
       <TeamsMain />
     </div>
-  );
-};
+  )
+}
 
-export default Teams;
+export default Teams

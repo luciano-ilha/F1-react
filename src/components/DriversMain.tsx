@@ -8,4 +8,4 @@ const DriversMain = () => {
   )
 }
 
-export default DriversMain;
+export default DriversMain
