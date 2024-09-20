@@ -3,11 +3,13 @@ import '../styles/TeamsMain.styles.css'
 
 const TeamsMain = () => { 
   const teams = useTeamsContext()
-  console.log(teams)
 
   return (
     <div className='flex justify-center teams-main-content'>
-      <span className='font-semibold leading-6 text-white teams-main-title'>Teams</span>
+      <span className='font-semibold leading-6 text-white drivers-main-title' style={{ marginBottom: '60px' }}>Teams</span>
+      {/* {teams.map((team => { 
+        <span>{team.name}</span>
+      }))} */}
     </div>
   )
 }

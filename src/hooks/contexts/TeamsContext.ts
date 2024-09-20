@@ -1,7 +1,7 @@
 import { createContext, useContext } from "react";
-import { TeamObj } from "../../types";
+import { TeamsObj } from "../../types";
 
-export const TeamsContext = createContext<TeamObj | undefined>(undefined)
+export const TeamsContext = createContext<TeamsObj | undefined>(undefined)
 
 export const useTeamsContext = () => { 
   const teams = useContext(TeamsContext)
