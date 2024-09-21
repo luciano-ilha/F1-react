@@ -3,7 +3,6 @@ import '../styles/CircuitsMain.styles.css'
 
 const CircuitsMain = () => { 
   const circuit = useCircuitContext()
-  console.log(circuit)
 
   return (
     <div className='flex justify-center circuits-main-content'>

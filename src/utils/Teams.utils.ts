@@ -1,6 +1,6 @@
 export const initialTeams = [{ 
   id: 0,
-  base: '',
+  city: '',
   chassis: '',
   director: '',
   engine: '',
@@ -12,5 +12,18 @@ export const initialTeams = [{
   president: '',
   technical_manager: '',
   tyres: '',
-  world_championships: 0
+  world_championships: 0,
+  drivers: [{
+    id: 0,
+    name: '',
+    abbr: '',
+    birthdate: '',
+    image: '',
+    nationality: '',
+    number: 0,
+    career_points: '',
+    winnings: 0,
+    team_name: '',
+    championships: 0
+  }]
 }]

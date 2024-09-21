@@ -1,10 +1,17 @@
-export type DriverTeams = {
-  season: string
-  team: {
-    id: number
-    logo: string
-    name: string
-  }
+export type Team = {
+  id: number
+  city: string
+  first_team_entry: string
+  world_championships: string
+  pole_positions: string
+  fastest_laps: string
+  president: string
+  director: string
+  chassis: string
+  engine: string
+  logo: string
+  technical_manager: string
+  tyres: string
 }
 
 export interface DriverObj {
@@ -16,6 +23,8 @@ export interface DriverObj {
   nationality: string
   number: number
   career_points: string
-  podiums: number
-  teams: DriverTeams[]
+  winnings: number
+  team_name: string
+  championships: number
+  team: Team
 }

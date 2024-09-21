@@ -7,13 +7,22 @@ export const initialDriver = {
   nationality: '',
   number: 0,
   career_points: '',
-  podiums: 0,
-  teams: [{
-    season: '',
-    team: {
-      id: 0,
-      logo: '',
-      name: ''
-    }
-  }]
+  winnings: 0,
+  team_name: '',
+  championships: 0,
+  team: {
+    id: 0,
+    city: '',
+    first_team_entry: '',
+    world_championships: '',
+    pole_positions: '',
+    fastest_laps: '',
+    president: '',
+    director: '',
+    chassis: '',
+    engine: '',
+    logo: '',
+    technical_manager: '',
+    tyres: ''
+  }
 }
