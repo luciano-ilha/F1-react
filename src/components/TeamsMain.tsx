@@ -1,4 +1,3 @@
-import { useEffect } from 'react'
 import { useTeamsContext } from '../hooks/contexts/TeamsContext'
 import '../styles/TeamsMain.styles.css'
 import { TeamsObj } from '../types'

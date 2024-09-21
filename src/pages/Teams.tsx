@@ -16,8 +16,8 @@ const Teams = () => {
   const abortControllerRef = useRef<AbortController | null>(null)
 
   const fetchTeams = async () => {
-    // abortControllerRef.current?.abort()
-    // abortControllerRef.current = new AbortController()
+    abortControllerRef.current?.abort()
+    abortControllerRef.current = new AbortController()
 
     setIsLoading(true)
 
@@ -42,13 +42,13 @@ const Teams = () => {
     fetchTeams()
   }, [])
 
-  // if (isLoading) {
-  //   return (<div>Loading...</div>)
-  // }
+  if (isLoading) {
+    return (<div>Loading...</div>)
+  }
 
-  // if (error) {
-  //   return (<div>Something went wrong</div>)
-  // }
+  if (error) {
+    return (<div>Something went wrong</div>)
+  }
 
   return (
     <div className="custom-container">
