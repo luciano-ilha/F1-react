@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { DriversContext } from '../hooks/contexts/DriversContext'
 import { DriverObj } from '../types'
-import { initialDriver } from '../utils/Drivers.utils'
+import { initialDrivers } from '../utils/Drivers.utils'
 import DriversMain from '../components/DriversMain'
 import Header from '../components/Header'
 import '../styles/Custom.styles.css'
@@ -11,7 +11,7 @@ const BASE_URL = 'http://localhost:3000/drivers'
 const Drivers = () => {
   const [error, setError] = useState()
   const [isLoading, setIsLoading] = useState(false)
-  const [driver, setDriver] = useState<DriverObj>(initialDriver)
+  const [drivers, setDrivers] = useState<DriverObj[]>(initialDrivers)
 
   const abortControllerRef = useRef<AbortController | null>(null)
 
@@ -23,9 +23,9 @@ const Drivers = () => {
 
     try {
       const response = await fetch(BASE_URL)
-      const driverInfo = await response.json();
+      const driversInfo = await response.json();
 
-      setDriver(driverInfo)
+      setDrivers(driversInfo)
     } catch (e: any) {
       if (e.name === 'AbortError') {
         console.log('Aborted')
@@ -52,7 +52,7 @@ const Drivers = () => {
 
   return (
     <div className="custom-container">
-      <DriversContext.Provider value={driver}>
+      <DriversContext.Provider value={drivers}>
         <Header />
         <DriversMain />
       </DriversContext.Provider>

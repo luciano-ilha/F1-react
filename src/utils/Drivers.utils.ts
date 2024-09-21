@@ -1,4 +1,4 @@
-export const initialDriver = {
+export const initialDrivers = [{
   id: 0,
   name: '',
   abbr: '',
@@ -25,4 +25,4 @@ export const initialDriver = {
     technical_manager: '',
     tyres: ''
   }
-}
+}]
