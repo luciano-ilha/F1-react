@@ -13,9 +13,8 @@ const DriversMain = () => {
       <span style={{marginBottom: '10px'}}>Nationality: {driver?.nationality}</span>
       <span style={{marginBottom: '10px'}}>Number: {driver?.number}</span>
       <span style={{marginBottom: '10px'}}>Career Points: {driver?.career_points}</span>
-      <span style={{marginBottom: '10px'}}>Podiums: {driver?.podiums}</span>
-      <span style={{marginBottom: '10px'}}>Team: {driver?.teams[0].team.name}</span>
-      <span style={{marginBottom: '10px'}}>Team Logo: <img src={driver?.teams[0].team.logo} alt="Driver team logo" /></span>
+      <span style={{marginBottom: '10px'}}>Campeonatos: {driver?.championships}</span>
+      <span style={{marginBottom: '10px'}}>Team: {driver?.team_name}</span>
     </div>
   )
 }

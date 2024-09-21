@@ -6,8 +6,7 @@ import DriversMain from '../components/DriversMain'
 import Header from '../components/Header'
 import '../styles/Custom.styles.css'
 
-const API_KEY = '3e1b1588663da7f83d12f7386fe0e4de'; 
-const BASE_URL = 'https://v1.formula-1.api-sports.io/drivers?id=1'
+const BASE_URL = 'http://localhost:3000/drivers'
 
 const Drivers = () => {
   const [error, setError] = useState()
@@ -23,17 +22,10 @@ const Drivers = () => {
     setIsLoading(true)
 
     try {
-      const response = await fetch(BASE_URL, {
-        method: 'GET',
-        headers: {
-          'x-rapidapi-key': API_KEY
-        },
-        signal: abortControllerRef.current?.signal
-      })
+      const response = await fetch(BASE_URL)
+      const driverInfo = await response.json();
 
-      const driverInfo = await response.json()
-
-      setDriver(driverInfo.response[0])
+      setDriver(driverInfo)
     } catch (e: any) {
       if (e.name === 'AbortError') {
         console.log('Aborted')
@@ -50,13 +42,13 @@ const Drivers = () => {
     fetchDrivers()
   }, [])
 
-  // if (isLoading) {
-  //   return (<div>Loading...</div>)
-  // }
+  if (isLoading) {
+    return (<div>Loading...</div>)
+  }
 
-  // if (error) {
-  //   return (<div>Something went wrong</div>)
-  // }
+  if (error) {
+    return (<div>Something went wrong</div>)
+  }
 
   return (
     <div className="custom-container">
